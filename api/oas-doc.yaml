@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  description: hello desd
+  version: 1.0.0
+  title: Swagger Petstore
+servers:
+  - url: ''
+paths:
+  /pet:
+    get:
+      tags:
+        - pet
+      summary: Add a new pet to the store
+      responses:
+        '405':
+          description: Invalid input
